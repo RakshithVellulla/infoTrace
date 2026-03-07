@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data (large files — don't push to GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (large files)
+models/*
+!models/.gitkeep
+
+# API Keys — NEVER push these
+*.env
+secrets.py
+config_local.py
+
+# Windows specific
+Thumbs.db
+desktop.ini
