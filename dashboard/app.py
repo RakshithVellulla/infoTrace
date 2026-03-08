@@ -3,6 +3,9 @@ import sys
 import json
 sys.path.append("..")
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.ai_engine.pipeline import run_infotrace_pipeline
 
 # Page config
