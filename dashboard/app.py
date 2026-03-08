@@ -1,13 +1,11 @@
 import streamlit as st
 import sys
-import json
-sys.path.append("..")
-
-import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.ai_engine.pipeline import run_infotrace_pipeline
+import json
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from src.ai_engine.pipeline import run_infotrace_pipeline
 # Page config
 st.set_page_config(
     page_title="InfoTrace",
