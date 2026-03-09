@@ -45,7 +45,14 @@ InfoTrace/
 ---
 
 ## 🚧 Status
-> Phase 1 — Data Pipeline (In Progress)
+> Phase 1 — Data Pipeline
+
+
+# 🔍 InfoTrace
+
+🚀 **Live App:** https://infotrace-ap2fzx8yjnxo5dz3snrqfh.streamlit.app/
+
+---
 
 ---
 
